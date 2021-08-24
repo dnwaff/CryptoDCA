@@ -62,6 +62,8 @@ const CalcView = (props) => {
         const info = {
           details: details,
           buyAmount: amount,
+          dateTo: dateTo,
+          dateFrom: dateFrom,
           coinName: selectedCoin.split('-')[1]
         }
         history.push('/results', info)

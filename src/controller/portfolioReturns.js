@@ -37,8 +37,11 @@ class pfr {
         result.totalAmountPaid = this.totalAmountPaid(portfolio).toFixed(2)
         result.totalValuation = this.totalValuation(portfolio).toFixed(2)
         result.totalCoins = this.totalCoins(portfolio).toFixed(2)
+        result.profit = result.totalValuation - result.totalAmountPaid 
+        result.profit = result.profit.toFixed(2)
         return result
     }
+
 
     static avgPrice(portfolio){
         var totalAmount = this.totalAmountPaid(portfolio)

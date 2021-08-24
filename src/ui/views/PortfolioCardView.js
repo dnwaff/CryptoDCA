@@ -16,22 +16,22 @@ const PortfolioCardView = (props) => {
             <PortfolioCard cardInfo = {props.cardInfo[0]} icon='0' info={cardProp}/>
           </Grid>
           <Grid item align="center" xs>
-            <PortfolioCard cardInfo = {props.cardInfo[2]} icon='2' info={cardProp}/>
+            <PortfolioCard cardInfo = {props.cardInfo[1]} icon='2' info={cardProp}/>
           </Grid>
           <Grid item align="center" xs>
-            <PortfolioCard cardInfo = {props.cardInfo[1]} icon='1' info={cardProp}/>
+            <PortfolioCard cardInfo = {props.cardInfo[2]} icon='1' info={cardProp}/>
           </Grid>
         </Grid>
         
         <Grid container direction="row" justify="center" alignItems="center" spacing={4}>
           <Grid item align="center" xs>
-            <PortfolioCard cardInfo = {props.cardInfo[2]} icon='2' info={cardProp}/>
+            <PortfolioCard cardInfo = {props.cardInfo[3]} icon='2' info={cardProp}/>
           </Grid>
           <Grid item align="center" xs>
-            <PortfolioCard cardInfo = {props.cardInfo[1]} icon='1' info={cardProp}/>
+            <PortfolioCard cardInfo = {props.cardInfo[4]} icon='1' info={cardProp}/>
           </Grid>
           <Grid item align="center" xs>
-            <PortfolioCard cardInfo = {props.cardInfo[0]} icon='0' info={cardProp}/>
+            <PortfolioCard cardInfo = {props.cardInfo[5]} icon='0' info={cardProp}/>
           </Grid>
         </Grid>
       </div>
