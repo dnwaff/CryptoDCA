@@ -5,7 +5,8 @@ import Button from '@material-ui/core/Button';
 import DatePicker from '../components/DatePicker'
 import TextField from '@material-ui/core/TextField'
 import {getCoins, getTransactionDetails} from '../../controller/Query'
-import { tr } from 'date-fns/locale';
+import { useHistory } from 'react-router-dom';
+
 
 
 const CalcView = (props) => {
@@ -18,6 +19,8 @@ const CalcView = (props) => {
     const [amount, setAmount] = useState(50);
     const [dateFrom, setDateFrom] = useState(new Date('2014-04-18'))
     const [dateTo, setDateTo] = useState(new Date('2017-08-18'))
+
+    const history = useHistory();
 
     useEffect(() => {
       //fetch coins type to populate intial set of coin choices
@@ -54,9 +57,15 @@ const CalcView = (props) => {
         amount: amount,
         coinTicker: selectedCoin,
       }
-
       console.log(tradeHistory)
-      getTransactionDetails(tradeHistory)
+      getTransactionDetails(tradeHistory).then((details) => {
+        const info = {
+          details: details,
+          buyAmount: amount,
+          coinName: selectedCoin.split('-')[1]
+        }
+        history.push('/results', info)
+      })
     }
 
 

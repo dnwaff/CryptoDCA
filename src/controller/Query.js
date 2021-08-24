@@ -34,4 +34,5 @@ export async function getTransactionDetails(tradeHistory){
     const transactionInfo = pfr.portfolioInfo(transactionDetails)
     console.log(transactionDetails)
     console.log(transactionInfo)
+    return transactionInfo
 }

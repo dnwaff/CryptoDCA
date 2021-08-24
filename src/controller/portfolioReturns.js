@@ -32,11 +32,11 @@ class pfr {
 
     static portfolioInfo(portfolio){
         var result = {}
-        result.avgPrice = this.avgPrice(portfolio)
-        result.percentGains = this.percentGains(portfolio)
-        result.totalAmountPaid = this.totalAmountPaid(portfolio)
-        result.totalValuation = this.totalValuation(portfolio)
-        result.totalCoins = this.totalCoins(portfolio)
+        result.avgPrice = this.avgPrice(portfolio).toFixed(2);
+        result.percentGains = this.percentGains(portfolio).toFixed(2)
+        result.totalAmountPaid = this.totalAmountPaid(portfolio).toFixed(2)
+        result.totalValuation = this.totalValuation(portfolio).toFixed(2)
+        result.totalCoins = this.totalCoins(portfolio).toFixed(2)
         return result
     }
 

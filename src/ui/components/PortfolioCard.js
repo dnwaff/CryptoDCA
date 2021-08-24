@@ -9,12 +9,12 @@ import ShowChartIcon from '@material-ui/icons/ShowChart';
 import GradeIcon from '@material-ui/icons/Grade';
 
 const PortfolioCard = (props) => {
-    const {category, text, result} = props.info
+    const {category, text, result} = props.cardInfo || {category:'none', text: 'none', result: 'none'}
     const icon = props.icon || 0
     
     const style = {
       height: '350px',
-      width: '400px'
+      width: '450px'
     }
 
     const chooseIcon = (num) =>{
@@ -31,18 +31,17 @@ const PortfolioCard = (props) => {
         </CardContent>
         <CardContent>
           <Typography  variant="h4" gutterBottom>
-            Average Buy Price
+            {category}
           </Typography>
           <Typography variant="h6" color="textSecondary">
-            The average price you bought your coins at from 2016 - 2018
-            considering a monthly buy of 300 
+            {text}
           </Typography>
           
         </CardContent>
         <Divider style={{marginTop:'10px', marginBottom:'10px'}}/>
         <CardContent>
           <Typography align='center'  variant="h3" color="primary">
-              400
+              {result}
           </Typography>
         </CardContent>
       </Card>
