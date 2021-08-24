@@ -1,30 +1,21 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
-import React, {useState} from 'react';
+import Home from './pages/Home'
+import Results from './pages/Results'
+import {Route, BrowserRouter as Router, Switch} from "react-router-dom"
 
-import MainHeader from './ui/components/Header/MainHeader'
-import CalcView from './ui/views/CalcView'
-import PortfolioCardView from './ui/views/PortfolioCardView'
-import StockChart from './ui/views/StockChart'
 
 
 function App() {
-  const title = 'Crypto DCA';
-  return (
+  return(
+    <Router>
+      <Switch>
+        <Route path='/results' component={Results}/>
+        <Route path='/' component={Home}/>
+      </Switch>
+    </Router>
     
-    <div className="app-body">
-      <div style={{marginBottom: '100px'}}>
-        <MainHeader title = {title}/>
-      </div>
-      <div>
-        <CalcView/>
-      </div>
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
-
-    </div>
-  );
+  )
 }
 
 export default App;

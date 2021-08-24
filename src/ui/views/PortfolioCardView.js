@@ -9,29 +9,29 @@ const PortfolioCardView = (props) => {
     };
   
     return (
-    <div style={{justifyContent:'center', alignItems:'center', display:'flex'}}>
-      <div style={{width: '800px'}}>
-        <Grid container direction="row" justify="center" alignItems="center" spacing={1}>
+    <div style={{ justifyContent:'center', alignItems:'center', display:'flex'}}>
+      <div>
+        <Grid container direction="row" justify="center" alignItems="center" spacing={4}>
           <Grid item align="center" xs>
-            <PortfolioCard info={cardProp}/>
+            <PortfolioCard icon='0' info={cardProp}/>
           </Grid>
           <Grid item align="center" xs>
-            <PortfolioCard info={cardProp}/>
+            <PortfolioCard icon='2' info={cardProp}/>
           </Grid>
           <Grid item align="center" xs>
-            <PortfolioCard info={cardProp}/>
+            <PortfolioCard icon='1' info={cardProp}/>
           </Grid>
         </Grid>
         
-        <Grid container direction="row" justify="center" alignItems="center" spacing={1}>
+        <Grid container direction="row" justify="center" alignItems="center" spacing={4}>
           <Grid item align="center" xs>
-            <PortfolioCard info={cardProp}/>
+            <PortfolioCard icon='2' info={cardProp}/>
           </Grid>
           <Grid item align="center" xs>
-            <PortfolioCard info={cardProp}/>
+            <PortfolioCard icon='1' info={cardProp}/>
           </Grid>
           <Grid item align="center" xs>
-            <PortfolioCard info={cardProp}/>
+            <PortfolioCard icon='0' info={cardProp}/>
           </Grid>
         </Grid>
       </div>

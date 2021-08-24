@@ -29,7 +29,6 @@ class api {
         var dates = transactions.map(a => a.date)
         const startDate = dates[0]
         const endDate = dates[transactions.length - 1]
-        console.log(startDate + " : " + endDate)
         return this.__prices(startDate, endDate)
      }
 
