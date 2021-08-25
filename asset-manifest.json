@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CryptoDCA/static/css/main.6c9d54ea.chunk.css",
-    "main.js": "/CryptoDCA/static/js/main.edc7a6a6.chunk.js",
-    "main.js.map": "/CryptoDCA/static/js/main.edc7a6a6.chunk.js.map",
+    "main.js": "/CryptoDCA/static/js/main.36792e2a.chunk.js",
+    "main.js.map": "/CryptoDCA/static/js/main.36792e2a.chunk.js.map",
     "runtime-main.js": "/CryptoDCA/static/js/runtime-main.c9015a82.js",
     "runtime-main.js.map": "/CryptoDCA/static/js/runtime-main.c9015a82.js.map",
     "static/css/2.d5e620ed.chunk.css": "/CryptoDCA/static/css/2.d5e620ed.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.d5e620ed.chunk.css",
     "static/js/2.323aeb01.chunk.js",
     "static/css/main.6c9d54ea.chunk.css",
-    "static/js/main.edc7a6a6.chunk.js"
+    "static/js/main.36792e2a.chunk.js"
   ]
 }
