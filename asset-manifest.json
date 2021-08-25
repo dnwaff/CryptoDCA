@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CryptoDCA/static/css/main.6c9d54ea.chunk.css",
+    "main.js": "/CryptoDCA/static/js/main.bb2f83c4.chunk.js",
+    "main.js.map": "/CryptoDCA/static/js/main.bb2f83c4.chunk.js.map",
+    "runtime-main.js": "/CryptoDCA/static/js/runtime-main.c9015a82.js",
+    "runtime-main.js.map": "/CryptoDCA/static/js/runtime-main.c9015a82.js.map",
+    "static/css/2.d5e620ed.chunk.css": "/CryptoDCA/static/css/2.d5e620ed.chunk.css",
+    "static/js/2.323aeb01.chunk.js": "/CryptoDCA/static/js/2.323aeb01.chunk.js",
+    "static/js/2.323aeb01.chunk.js.map": "/CryptoDCA/static/js/2.323aeb01.chunk.js.map",
+    "static/js/3.c2d6f5d7.chunk.js": "/CryptoDCA/static/js/3.c2d6f5d7.chunk.js",
+    "static/js/3.c2d6f5d7.chunk.js.map": "/CryptoDCA/static/js/3.c2d6f5d7.chunk.js.map",
+    "index.html": "/CryptoDCA/index.html",
+    "static/css/2.d5e620ed.chunk.css.map": "/CryptoDCA/static/css/2.d5e620ed.chunk.css.map",
+    "static/css/main.6c9d54ea.chunk.css.map": "/CryptoDCA/static/css/main.6c9d54ea.chunk.css.map",
+    "static/js/2.323aeb01.chunk.js.LICENSE.txt": "/CryptoDCA/static/js/2.323aeb01.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9015a82.js",
+    "static/css/2.d5e620ed.chunk.css",
+    "static/js/2.323aeb01.chunk.js",
+    "static/css/main.6c9d54ea.chunk.css",
+    "static/js/main.bb2f83c4.chunk.js"
+  ]
+}
